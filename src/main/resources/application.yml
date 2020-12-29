@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/beansyuan/config
+#          username:
+#          password:
+          search-paths: /**
+          default-label: main
+          timeout: 50
+          basedir: target/config
+  application:
+    name: yuan-springcloud-config
+server:
+  port: 40000
