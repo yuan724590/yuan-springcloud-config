@@ -6,10 +6,10 @@ spring:
           uri: https://github.com/beansyuan/config
 #          username:
 #          password:
-          search-paths: /**
+          search-paths: configs/
           default-label: main
           timeout: 50
-          basedir: target/config
+#          basedir: target/config
   application:
     name: yuan-springcloud-config
 server:

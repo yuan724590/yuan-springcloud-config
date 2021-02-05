@@ -5,26 +5,14 @@
     <groupId>yuan-springcloud</groupId>
     <artifactId>yuan-springcloud-config</artifactId>
     <version>1-sc</version>
-    <name>config</name>
-    <!--<parent>-->
-        <!--<groupId>org.springframework.boot</groupId>-->
-        <!--<artifactId>spring-boot-starter-parent</artifactId>-->
-        <!--<version>2.4.1</version>-->
-        <!--<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
-    <!--</parent>-->
 
     <properties>
         <java.version>15</java.version>
         <spring-cloud.version>2020.0.0-M6</spring-cloud.version>
+        <lombok.version>1.18.10</lombok.version>
     </properties>
 
     <dependencies>
-
-        <!-- 这个依赖本来是可以不加的，但是配置没办法刷新，加上它可以手动刷新配置 -->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-actuator</artifactId>-->
-        <!--</dependency>-->
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
