@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/beansyuan/config
+          uri: https://github.com/yuan724590/config
 #          username:
 #          password:
           search-paths: configs/
