@@ -1,7 +1,17 @@
 spring:
+#通过mysql获取数据
+#  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/config?useUnicode=true&characterEncoding-UTF-8
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.jdbc.Driver
   cloud:
     config:
       server:
+#通过mysql获取数据
+#        jdbc:
+#          sql: select a from config where a = 1
+#        label: main
         git:
           uri: https://github.com/yuan724590/config
 #          username:
